@@ -1,0 +1,319 @@
+shipment_id,status,timestamp,remarks
+SHP_STRUCT_001,CREATED,2026-01-09T11:02:21.499495,"Order confirmed, preparing for packing"
+SHP_STRUCT_001,PACKING,2026-01-09T11:02:21.802322,Item being packed
+SHP_STRUCT_001,DISPATCHED,2026-01-09T11:02:22.108963,Shipment handed to courier
+SHP_STRUCT_001,IN_TRANSIT,2026-01-09T11:02:22.415955,En route to destination city
+SHP_STRUCT_001,OUT_FOR_DELIVERY,2026-01-09T11:02:22.723782,Out for delivery by local courier
+SHP_STRUCT_001,DELIVERED,2026-01-09T11:02:23.030748,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:18:27.292816,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:18:27.603081,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:18:27.909137,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:18:28.217004,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:18:28.526196,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:18:28.830625,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:18:28.844551,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:18:29.150041,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:18:29.654833,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:18:29.960601,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:18:30.264723,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:18:30.572160,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:18:30.877443,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:18:30.891413,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:18:31.195699,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:18:31.500007,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:18:31.805978,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:18:32.112323,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:18:32.616683,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:18:32.922062,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:18:32.943537,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:18:33.248544,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:18:33.555671,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:18:33.861193,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:18:34.165710,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:18:34.471353,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:18:34.483308,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:18:34.789565,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:18:35.295787,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:18:35.601649,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:18:35.906429,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:18:36.211256,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:18:36.515497,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:18:36.529988,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:18:36.836094,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:18:37.142720,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:18:37.448688,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:18:37.754002,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:18:38.262238,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:18:38.569959,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:18:38.586194,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:18:38.892616,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:18:39.197840,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:18:39.503679,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:18:39.807841,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:18:40.114329,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:18:40.130181,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:18:40.436278,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:18:40.940999,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:18:41.246941,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:18:41.553456,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:18:41.858450,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:18:42.164106,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:18:42.179781,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:18:42.489497,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:18:42.795215,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:18:43.102610,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:18:43.407671,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:18:43.912888,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:18:44.218079,Package delivered successfully
+SHP_LOOP_001,CREATED,2026-01-09T11:18:44.248226,"Order confirmed, preparing for packing"
+SHP_LOOP_001,PACKING,2026-01-09T11:18:44.557596,Item being packed
+SHP_LOOP_001,DISPATCHED,2026-01-09T11:18:44.864455,Shipment handed to courier
+SHP_LOOP_001,IN_TRANSIT,2026-01-09T11:18:45.170538,En route to destination city
+SHP_LOOP_001,OUT_FOR_DELIVERY,2026-01-09T11:18:45.475413,Out for delivery by local courier
+SHP_LOOP_001,DELIVERED,2026-01-09T11:18:45.780346,Package delivered successfully
+SHP_LOOP_002,CREATED,2026-01-09T11:18:45.795432,"Order confirmed, preparing for packing"
+SHP_LOOP_002,PACKING_DELAY,2026-01-09T11:18:46.103362,Packing exceeded expected time - warehouse congestion
+SHP_LOOP_002,PACKING,2026-01-09T11:18:46.609174,Item being packed
+SHP_LOOP_002,DISPATCHED,2026-01-09T11:18:46.916022,Shipment handed to courier
+SHP_LOOP_002,IN_TRANSIT,2026-01-09T11:18:47.221002,En route to destination city
+SHP_LOOP_002,OUT_FOR_DELIVERY,2026-01-09T11:18:47.525343,Out for delivery by local courier
+SHP_LOOP_002,DELIVERED,2026-01-09T11:18:47.831105,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:19:01.421820,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:19:01.739035,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:19:02.046338,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:19:02.352542,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:19:02.659272,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:19:02.966126,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:19:02.988803,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:19:03.297706,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:19:03.805855,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:19:04.112343,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:19:04.416489,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:19:04.721914,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:19:05.029034,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:19:05.047558,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:19:05.352240,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:19:05.657137,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:19:05.962449,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:19:06.277650,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:19:06.785675,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:19:07.090855,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:19:07.119628,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:19:07.424573,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:19:07.733046,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:19:08.039834,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:19:08.345611,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:19:08.650921,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:19:08.669101,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:19:08.973565,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:19:09.479897,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:19:09.786427,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:19:10.095817,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:19:10.402756,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:19:10.708937,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:19:10.729549,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:19:11.034510,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:19:11.339632,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:19:11.649326,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:19:11.959900,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:19:12.464695,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:19:12.769750,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:19:12.794163,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:19:13.099938,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:19:13.405199,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:19:13.712654,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:19:14.019644,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:19:14.328619,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:19:14.343283,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:19:14.648640,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:19:15.153644,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:19:15.462482,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:19:15.770256,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:19:16.078586,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:19:16.384405,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:19:16.409333,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:19:16.715184,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:19:17.026331,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:19:17.332340,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:19:17.641422,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:19:18.147824,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:19:18.453612,Package delivered successfully
+SHP_LOOP_001,CREATED,2026-01-09T11:19:18.491269,"Order confirmed, preparing for packing"
+SHP_LOOP_001,PACKING,2026-01-09T11:19:18.796994,Item being packed
+SHP_LOOP_001,DISPATCHED,2026-01-09T11:19:19.102451,Shipment handed to courier
+SHP_LOOP_001,IN_TRANSIT,2026-01-09T11:19:19.410835,En route to destination city
+SHP_LOOP_001,OUT_FOR_DELIVERY,2026-01-09T11:19:19.718132,Out for delivery by local courier
+SHP_LOOP_001,DELIVERED,2026-01-09T11:19:20.027100,Package delivered successfully
+SHP_LOOP_002,CREATED,2026-01-09T11:19:20.043125,"Order confirmed, preparing for packing"
+SHP_LOOP_002,PACKING_DELAY,2026-01-09T11:19:20.349913,Packing exceeded expected time - warehouse congestion
+SHP_LOOP_002,PACKING,2026-01-09T11:19:20.857497,Item being packed
+SHP_LOOP_002,DISPATCHED,2026-01-09T11:19:21.163188,Shipment handed to courier
+SHP_LOOP_002,IN_TRANSIT,2026-01-09T11:19:21.471865,En route to destination city
+SHP_LOOP_002,OUT_FOR_DELIVERY,2026-01-09T11:19:21.780470,Out for delivery by local courier
+SHP_LOOP_002,DELIVERED,2026-01-09T11:19:22.088750,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:20:56.380440,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:20:56.693459,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:20:57.000209,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:20:57.305368,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:20:57.611549,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:20:57.918987,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:20:57.938535,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:20:58.245397,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:20:58.750749,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:20:59.056511,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:20:59.361885,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:20:59.666609,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:20:59.971683,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:20:59.992149,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:21:00.298515,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:21:00.606898,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:21:00.914639,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:21:01.220287,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:21:01.726622,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:21:02.031760,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:21:02.075030,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:21:02.384819,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:21:02.691143,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:21:02.997065,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:21:03.305127,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:21:03.613040,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:21:03.637455,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:21:03.952766,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:21:04.460730,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:21:04.766461,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:21:05.074559,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:21:05.385166,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:21:05.692332,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:21:05.711658,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:21:06.018478,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:21:06.325827,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:21:06.633527,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:21:06.941480,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:21:07.447474,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:21:07.754517,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:21:07.794989,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:21:08.100796,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:21:08.407993,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:21:08.714162,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:21:09.020665,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:21:09.329175,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:21:09.348966,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:21:09.656673,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:21:10.167212,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:21:10.474266,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:21:10.780434,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:21:11.087112,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:21:11.393456,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:21:11.411122,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:21:11.716113,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:21:12.024799,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:21:12.331689,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:21:12.639890,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:21:13.147147,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:21:13.453859,Package delivered successfully
+SHP_LOOP_001,CREATED,2026-01-09T11:21:13.580495,"Order confirmed, preparing for packing"
+SHP_LOOP_001,PACKING,2026-01-09T11:21:13.886323,Item being packed
+SHP_LOOP_001,DISPATCHED,2026-01-09T11:21:14.194076,Shipment handed to courier
+SHP_LOOP_001,IN_TRANSIT,2026-01-09T11:21:14.502296,En route to destination city
+SHP_LOOP_001,OUT_FOR_DELIVERY,2026-01-09T11:21:14.810903,Out for delivery by local courier
+SHP_LOOP_001,DELIVERED,2026-01-09T11:21:15.116942,Package delivered successfully
+SHP_LOOP_002,CREATED,2026-01-09T11:21:15.135770,"Order confirmed, preparing for packing"
+SHP_LOOP_002,PACKING_DELAY,2026-01-09T11:21:15.444303,Packing exceeded expected time - warehouse congestion
+SHP_LOOP_002,PACKING,2026-01-09T11:21:15.950579,Item being packed
+SHP_LOOP_002,DISPATCHED,2026-01-09T11:21:16.257187,Shipment handed to courier
+SHP_LOOP_002,IN_TRANSIT,2026-01-09T11:21:16.565860,En route to destination city
+SHP_LOOP_002,OUT_FOR_DELIVERY,2026-01-09T11:21:16.872109,Out for delivery by local courier
+SHP_LOOP_002,DELIVERED,2026-01-09T11:21:17.177810,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:22:21.250062,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:22:21.562571,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:22:21.873865,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:22:22.180939,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:22:22.488282,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:22:22.795677,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:22:22.817074,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:22:23.123761,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:22:23.630183,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:22:23.940009,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:22:24.246232,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:22:24.553672,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:22:24.859913,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:22:24.885006,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:22:25.191283,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:22:25.499355,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:22:25.805713,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:22:26.116023,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:22:26.623622,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:22:26.930403,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:22:26.965314,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:22:27.271895,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:22:27.578557,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:22:27.924070,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:22:28.233762,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:22:28.539968,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:22:28.558651,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:22:28.866803,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:22:29.373322,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:22:29.680714,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:22:29.989065,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:22:30.299290,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:22:30.613734,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:22:30.633597,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:22:30.940191,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:22:31.251714,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:22:31.558885,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:22:31.866355,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:22:32.375135,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:22:32.683381,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:22:32.710260,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:22:33.019968,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:22:33.331360,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:22:33.638746,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:22:33.946297,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:22:34.253340,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:22:34.272321,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:22:34.579166,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:22:35.086261,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:22:35.394635,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:22:35.701333,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:22:36.007710,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:22:36.315455,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:22:36.334431,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:22:36.640213,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:22:36.949582,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:22:37.256568,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:22:37.563978,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:22:38.071010,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:22:38.378765,Package delivered successfully
+SHP_EOD_001,CREATED,2026-01-09T11:22:38.415860,"Order confirmed, preparing for packing"
+SHP_EOD_001,PACKING,2026-01-09T11:22:38.722422,Item being packed
+SHP_EOD_001,DISPATCHED,2026-01-09T11:22:39.029572,Shipment handed to courier
+SHP_EOD_001,IN_TRANSIT,2026-01-09T11:22:39.337099,En route to destination city
+SHP_EOD_001,OUT_FOR_DELIVERY,2026-01-09T11:22:39.644815,Out for delivery by local courier
+SHP_EOD_001,DELIVERED,2026-01-09T11:22:39.951000,Package delivered successfully
+SHP_EOD_002,CREATED,2026-01-09T11:22:39.970147,"Order confirmed, preparing for packing"
+SHP_EOD_002,PACKING_DELAY,2026-01-09T11:22:40.277188,Packing exceeded expected time - warehouse congestion
+SHP_EOD_002,PACKING,2026-01-09T11:22:40.783920,Item being packed
+SHP_EOD_002,DISPATCHED,2026-01-09T11:22:41.095521,Shipment handed to courier
+SHP_EOD_002,IN_TRANSIT,2026-01-09T11:22:41.403912,En route to destination city
+SHP_EOD_002,OUT_FOR_DELIVERY,2026-01-09T11:22:41.711982,Out for delivery by local courier
+SHP_EOD_002,DELIVERED,2026-01-09T11:22:42.018588,Package delivered successfully
+SHP_EOD_003,CREATED,2026-01-09T11:22:42.035457,"Order confirmed, preparing for packing"
+SHP_EOD_003,PACKING,2026-01-09T11:22:42.343023,Item being packed
+SHP_EOD_003,DISPATCHED,2026-01-09T11:22:42.649996,Shipment handed to courier
+SHP_EOD_003,IN_TRANSIT,2026-01-09T11:22:42.963939,En route to destination city
+SHP_EOD_003,DELIVERY_DELAY,2026-01-09T11:22:43.273926,Delivery delayed - traffic congestion
+SHP_EOD_003,OUT_FOR_DELIVERY,2026-01-09T11:22:43.785188,Out for delivery by local courier
+SHP_EOD_003,DELIVERED,2026-01-09T11:22:44.095304,Package delivered successfully
+SHP_LOOP_001,CREATED,2026-01-09T11:22:44.220055,"Order confirmed, preparing for packing"
+SHP_LOOP_001,PACKING,2026-01-09T11:22:44.528047,Item being packed
+SHP_LOOP_001,DISPATCHED,2026-01-09T11:22:44.835486,Shipment handed to courier
+SHP_LOOP_001,IN_TRANSIT,2026-01-09T11:22:45.148415,En route to destination city
+SHP_LOOP_001,OUT_FOR_DELIVERY,2026-01-09T11:22:45.454070,Out for delivery by local courier
+SHP_LOOP_001,DELIVERED,2026-01-09T11:22:45.764482,Package delivered successfully
+SHP_LOOP_002,CREATED,2026-01-09T11:22:45.792783,"Order confirmed, preparing for packing"
+SHP_LOOP_002,PACKING_DELAY,2026-01-09T11:22:46.104756,Packing exceeded expected time - warehouse congestion
+SHP_LOOP_002,PACKING,2026-01-09T11:22:46.614532,Item being packed
+SHP_LOOP_002,DISPATCHED,2026-01-09T11:22:46.921098,Shipment handed to courier
+SHP_LOOP_002,IN_TRANSIT,2026-01-09T11:22:47.230922,En route to destination city
+SHP_LOOP_002,OUT_FOR_DELIVERY,2026-01-09T11:22:47.539453,Out for delivery by local courier
+SHP_LOOP_002,DELIVERED,2026-01-09T11:22:47.849503,Package delivered successfully

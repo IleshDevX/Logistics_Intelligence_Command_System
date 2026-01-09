@@ -1,0 +1,31 @@
+{
+  "cod_risk": 16,
+  "address_risk": 17,
+  "weather_risk": 22,
+  "area_risk": 16,
+  "weight_risk": 9,
+  "last_updated": "2026-01-09T17:33:44.741389",
+  "update_count": 1,
+  "adjustment_history": [
+    {
+      "timestamp": "2026-01-09T17:33:44.741405",
+      "high_risk_failures": 2,
+      "low_risk_successes": 6,
+      "missed_risks": 1,
+      "adjustments": {
+        "cod_risk": 1,
+        "address_risk": 2,
+        "weather_risk": 2,
+        "area_risk": 1,
+        "weight_risk": -1
+      },
+      "new_weights": {
+        "cod_risk": 16,
+        "address_risk": 17,
+        "weather_risk": 22,
+        "area_risk": 16,
+        "weight_risk": 9
+      }
+    }
+  ]
+}
