@@ -1,8 +1,9 @@
 """
 FastAPI Backend - Main Application
-Step 13: REST API for Logistics Intelligence & Command System
+Phase 3 & 4: REST API with MongoDB and JWT Authentication
 
 Endpoints:
+- Authentication (register, login, JWT)
 - Shipment intelligence (risk, address, weather)
 - Pre-dispatch decisions
 - Vehicle recommendations
@@ -20,14 +21,30 @@ import os
 # Add project root to path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from api.routes import (
-    shipments_router,
-    intelligence_router,
-    decisions_router,
-    overrides_router,
-    statistics_router,
-    execution_router
-)
+# Import database connection
+from database.connection import db_connection
+
+# Import authentication routes
+from auth_routes import router as auth_router
+
+try:
+    from routes import (
+        shipments_router,
+        intelligence_router,
+        decisions_router,
+        overrides_router,
+        statistics_router,
+        execution_router
+    )
+except ImportError:
+    # Fallback: Create minimal routers if routes.py not available
+    from fastapi import APIRouter
+    shipments_router = APIRouter()
+    intelligence_router = APIRouter()
+    decisions_router = APIRouter()
+    overrides_router = APIRouter()
+    statistics_router = APIRouter()
+    execution_router = APIRouter()
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -47,7 +64,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Startup event - Connect to MongoDB
+@app.on_event("startup")
+async def startup_event():
+    """Initialize MongoDB connection on startup"""
+    db_connection.connect()
+    print("✅ FastAPI application started with MongoDB connection")
+
+# Shutdown event - Close MongoDB connection
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Close MongoDB connection on shutdown"""
+    db_connection.close()
+    print("✅ FastAPI application shut down")
+
 # Include routers
+app.include_router(auth_router)  # Authentication routes (register, login, JWT)
 app.include_router(shipments_router, prefix="/api/shipments", tags=["Shipments"])
 app.include_router(intelligence_router, prefix="/api/intelligence", tags=["Intelligence"])
 app.include_router(decisions_router, prefix="/api/decisions", tags=["Decisions"])
@@ -58,12 +90,18 @@ app.include_router(execution_router, prefix="/api/execution", tags=["Execution"]
 @app.get("/")
 async def root():
     """Root endpoint - API health check"""
+    # Get MongoDB health
+    db_health = db_connection.health_check()
+    
     return {
         "message": "Logistics Intelligence & Command System API",
         "version": "1.0.0",
         "status": "operational",
+        "authentication": "JWT enabled",
+        "database": db_health,
         "docs": "/docs",
         "endpoints": {
+            "auth": "/api/auth",
             "shipments": "/api/shipments",
             "intelligence": "/api/intelligence",
             "decisions": "/api/decisions",

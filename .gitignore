@@ -26,6 +26,9 @@ wheels/
 # Environment Variables
 .env
 
+# Streamlit Secrets (NEVER commit this!)
+.streamlit/secrets.toml
+
 # IDE
 .vscode/
 .idea/
