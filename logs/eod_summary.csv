@@ -1,2 +1,0 @@
-shipment_id,predicted_risk_score,predicted_decision,actual_status,override_flag,mismatch_flag,prediction_accuracy,was_successful,had_delay
-TEST_001,25,DISPATCH,DELIVERED,False,False,100,True,False
