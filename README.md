@@ -1,16 +1,58 @@
-# Logistics Intelligence & Command System (LICS)
+# 🚚 Logistics Intelligence & Command System (LICS)
+
+LICS is a **human-in-the-loop logistics decision intelligence platform** designed to prevent delivery failures **before shipments leave the warehouse**.
+
+Unlike traditional automation systems that attempt to replace operators, LICS focuses on **operational awareness** — helping managers understand risk, not blindly execute AI output.
+
+---
+
+## 🔍 What the Platform Evaluates
+
+The system analyzes shipment feasibility using multiple real-world factors:
+
+- Route complexity
+- Last-mile area conditions
+- Weather impact
+- Vehicle suitability
+- Urgency classification
+- Operational constraints
+
+---
+
+## 🧠 Decision Workflow
+
+Instead of auto-dispatching, the system follows a transparent process:
+
+> **Explainable Recommendations → Human Decision → Auditable Record**
+
+This ensures that every shipment decision remains accountable and traceable.
+
+---
+
+## 🎯 Why LICS Exists
+
+LICS is suitable for organizations where **accountability matters more than raw speed**, including:
+
+- Logistics companies
+- Supply chain control towers
+- Fleet operations
+- Dispatch centers
+- Regulated operational environments
+
+The goal is not automation —  
+the goal is **informed decision-making**.
 
 ## Overview
 LICS is an **AI-assisted, human-in-the-loop logistics decision support system**.  
 It focuses on **pre-dispatch risk awareness**, not blind automation.
 
-**Version 2.0** features a completely redesigned **professional light-theme control tower UI** optimized for calm, informed decision-making.
+**Version 1.0** features a completely redesigned **professional light-theme control tower UI** optimized for calm, informed decision-making.
 
 ## Key Principles
 - ✅ AI advises, humans decide
 - 🎯 Risk awareness over speed
 - 💡 Explainability over black-box accuracy
-- 🇮🇳 Designed for Indian logistics realities
+- 🚚 Designed for Indian logistics realities
 - 🎨 Professional, light-theme interface
 - ⚖️ Governance transparency and audit trails
 
@@ -200,14 +242,12 @@ Comprehensive documentation available in `/docs`:
 
 ## Version History
 
-### v2.0 (January 2026)
+### v1.0 (January 2026)
 - ✨ Complete UI/UX redesign (light theme)
 - 🎨 Professional control tower interface
 - 📊 Enhanced supervisor analytics
 - 📝 Comprehensive documentation
 - ♿ Improved accessibility
-
-### v1.0 (Initial Release)
 - ✅ Core engine implementations
 - 🤖 ML-powered priority classification
 - 🌤️ Weather API integration
